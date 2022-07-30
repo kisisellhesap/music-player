@@ -127,6 +127,7 @@ player.next();
 displayMusic(player.getMusic());
 document.querySelector("#audio").play();
 isMusicPlaying();
+displayMusicList(player.musicList);
 }
 
 // Previous song
@@ -136,6 +137,7 @@ player.previous();
 displayMusic(player.getMusic());
 document.querySelector("#audio").play();
 isMusicPlaying();
+displayMusicList(player.musicList);
 }
 
 
